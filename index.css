@@ -1,0 +1,183 @@
+html,
+body {
+    height: 100%;
+}
+
+
+/* getting the font which we have downloaded and included in it */
+
+@font-face {
+    /* giving custom name [you can also name your name ] */
+    font-family: 'punjabi';
+    /* giving the address where we stored it. as it is in current folder we can write as it is */
+    src: url(GURAKH_H.TTF);
+}
+
+
+/* giving class because we have to convert it to punjabi font  */
+
+.navbar navbar-light bg-light {
+    margin-top: 50px;
+}
+
+.cover {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url("cal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 30%;
+    height: 100vh;
+    margin-top: -10px;
+}
+
+#hello {
+    font-size: 30px;
+    margin-bottom: -130px;
+    margin-top: 130px;
+    text-align: center;
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.container-fluid {
+    background-color: #4d4d4d;
+    height: 50px;
+    margin-top: 0px;
+    font-family: 'Akaya Telivigala', cursive;
+    color: white;
+}
+
+.container-fluid h1 {
+    width: 100%;
+    margin-left: 60px;
+    margin-top: -8px;
+    color: white;
+}
+
+.punjabi {
+    font-family: 'punjabi';
+}
+
+.list ul {
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 80%;
+}
+
+.contentWrapper {
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt {
+    width: 50%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 20%;
+    border: 0.5px solid lightgreen;
+    font-weight: bolder;
+    outline: none;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 0px;
+}
+
+.txt:focus {
+    box-shadow: -5px -5px 10px 0.2px rgb(247, 209, 209), 5px 5px 10px 0.2px rgb(151, 151, 247);
+}
+
+.btn {
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Akaya Telivigala', cursive;
+    font-weight: bolder;
+    border-radius: 30%;
+    border: 0.2px solid lightgray;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 0px;
+}
+
+.btn:hover {
+    box-shadow: -5px -5px 10px 0.2px rgb(143, 140, 140), 5px 5px 10px 0.2px rgb(153, 149, 149);
+}
+
+#p,
+#p1,
+#p3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow-wrap: anywhere;
+    color: white;
+}
+
+#p,
+#p3 {
+    font-family: 'Akaya Telivigala', cursive;
+    text-transform: capitalize;
+    color: white;
+}
+
+.para p {
+    margin-top: 20px;
+}
+
+.para {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: -20px;
+    font-size: 15px;
+    font-family: 'Akaya Telivigala', cursive;
+    background-color: #4d4d4d;
+    color: white;
+}
+
+#clickme {
+    background-color: #333333;
+    color: white;
+    align-items: center;
+}
+
+.head {
+    font-size: 30px;
+}
+
+.last {
+    margin-top: 200px;
+    background-color: #333333;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.last h1 {
+    font-size: 25px;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.mb-3 {
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+#send {
+    background-color: #1a1a1a;
+    font-size: 17px;
+    color: white;
+}
+
+.btnn {
+    padding-left: 40px;
+}
